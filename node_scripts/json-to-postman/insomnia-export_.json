@@ -1,40 +1,40 @@
 {
   "_type": "export",
   "__export_format": 4,
-  "__export_date": "2024-12-22T02:06:47.991Z",
+  "__export_date": "2024-12-22T02:02:31.258Z",
   "__export_source": "insomnia.desktop.app:v2023.5.8",
   "resources": [
     {
-      "_id": "wrk_phcf207992",
+      "_id": "wrk_1wn3951259",
       "_type": "workspace",
       "name": "NestJS Routes",
-      "description": "Workspace gerado automaticamente",
+      "description": "Generated workspace for NestJS routes",
       "scope": "collection"
     },
     {
-      "_id": "env_r3lp207992",
+      "_id": "env_7jd8951259",
       "_type": "environment",
-      "parentId": "wrk_phcf207992",
+      "parentId": "wrk_1wn3951259",
       "name": "Base Environment",
       "data": {},
       "dataPropertyOrder": null,
       "color": null,
       "isPrivate": false,
-      "metaSortKey": 1734833207992
+      "metaSortKey": 1734832951259
     },
     {
-      "_id": "fld_3aht207992",
+      "_id": "fld_i43u951259",
       "_type": "request_group",
-      "parentId": "wrk_phcf207992",
-      "name": "Wildcard",
+      "parentId": "wrk_1wn3951259",
+      "name": "Automated Routes",
       "environment": {},
       "environmentPropertyOrder": null,
       "metaSortKey": -1
     },
     {
-      "_id": "req_zjjc207992",
+      "_id": "req_gmoq951259",
       "_type": "request",
-      "parentId": "fld_3aht207992",
+      "parentId": "fld_i43u951259",
       "name": "[GET] /*",
       "method": "GET",
       "url": "http://localhost:3000/*",
@@ -51,9 +51,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_zbln207992",
+      "_id": "req_dlxb951259",
       "_type": "request",
-      "parentId": "fld_3aht207992",
+      "parentId": "fld_i43u951259",
       "name": "[POST] /*",
       "method": "POST",
       "url": "http://localhost:3000/*",
@@ -70,9 +70,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_xz82207992",
+      "_id": "req_dzoo951259",
       "_type": "request",
-      "parentId": "fld_3aht207992",
+      "parentId": "fld_i43u951259",
       "name": "[PUT] /*",
       "method": "PUT",
       "url": "http://localhost:3000/*",
@@ -89,9 +89,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_5x2x207992",
+      "_id": "req_c3al951259",
       "_type": "request",
-      "parentId": "fld_3aht207992",
+      "parentId": "fld_i43u951259",
       "name": "[DELETE] /*",
       "method": "DELETE",
       "url": "http://localhost:3000/*",
@@ -108,18 +108,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "fld_d1lh207992",
-      "_type": "request_group",
-      "parentId": "wrk_phcf207992",
-      "name": "Open-ai",
-      "environment": {},
-      "environmentPropertyOrder": null,
-      "metaSortKey": -1
-    },
-    {
-      "_id": "req_qafs207992",
+      "_id": "req_tuiv951259",
       "_type": "request",
-      "parentId": "fld_d1lh207992",
+      "parentId": "fld_i43u951259",
       "name": "[POST] /open-ai",
       "method": "POST",
       "url": "http://localhost:3000/open-ai",
@@ -136,9 +127,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_z1d2207992",
+      "_id": "req_d8cv951259",
       "_type": "request",
-      "parentId": "fld_d1lh207992",
+      "parentId": "fld_i43u951259",
       "name": "[GET] /open-ai",
       "method": "GET",
       "url": "http://localhost:3000/open-ai",
@@ -155,9 +146,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_bzey207992",
+      "_id": "req_a8bx951259",
       "_type": "request",
-      "parentId": "fld_d1lh207992",
+      "parentId": "fld_i43u951259",
       "name": "[GET] /open-ai/:id",
       "method": "GET",
       "url": "http://localhost:3000/open-ai/:id",
@@ -174,9 +165,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_vzv1207992",
+      "_id": "req_im7e951259",
       "_type": "request",
-      "parentId": "fld_d1lh207992",
+      "parentId": "fld_i43u951259",
       "name": "[PATCH] /open-ai/:id",
       "method": "PATCH",
       "url": "http://localhost:3000/open-ai/:id",
@@ -193,9 +184,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_d4ap207992",
+      "_id": "req_zhkv951259",
       "_type": "request",
-      "parentId": "fld_d1lh207992",
+      "parentId": "fld_i43u951259",
       "name": "[DELETE] /open-ai/:id",
       "method": "DELETE",
       "url": "http://localhost:3000/open-ai/:id",
@@ -212,18 +203,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "fld_w6pj207992",
-      "_type": "request_group",
-      "parentId": "wrk_phcf207992",
-      "name": "Auth",
-      "environment": {},
-      "environmentPropertyOrder": null,
-      "metaSortKey": -1
-    },
-    {
-      "_id": "req_k4j5207992",
+      "_id": "req_y5h0951259",
       "_type": "request",
-      "parentId": "fld_w6pj207992",
+      "parentId": "fld_i43u951259",
       "name": "[POST] /auth/signin",
       "method": "POST",
       "url": "http://localhost:3000/auth/signin",
@@ -240,9 +222,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_zj21207992",
+      "_id": "req_qw6a951259",
       "_type": "request",
-      "parentId": "fld_w6pj207992",
+      "parentId": "fld_i43u951259",
       "name": "[POST] /auth/signup",
       "method": "POST",
       "url": "http://localhost:3000/auth/signup",
@@ -259,9 +241,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_z7ra207992",
+      "_id": "req_q9nz951259",
       "_type": "request",
-      "parentId": "fld_w6pj207992",
+      "parentId": "fld_i43u951259",
       "name": "[POST] /auth/recovery-email",
       "method": "POST",
       "url": "http://localhost:3000/auth/recovery-email",
@@ -278,9 +260,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_34ct207992",
+      "_id": "req_m9iv951259",
       "_type": "request",
-      "parentId": "fld_w6pj207992",
+      "parentId": "fld_i43u951259",
       "name": "[GET] /auth/signout",
       "method": "GET",
       "url": "http://localhost:3000/auth/signout",
@@ -297,9 +279,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_vqsr207992",
+      "_id": "req_82lp951259",
       "_type": "request",
-      "parentId": "fld_w6pj207992",
+      "parentId": "fld_i43u951259",
       "name": "[DELETE] /auth/delete-email/:email",
       "method": "DELETE",
       "url": "http://localhost:3000/auth/delete-email/:email",
@@ -316,18 +298,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "fld_x9jx207992",
-      "_type": "request_group",
-      "parentId": "wrk_phcf207992",
-      "name": "Cliente",
-      "environment": {},
-      "environmentPropertyOrder": null,
-      "metaSortKey": -1
-    },
-    {
-      "_id": "req_htpr207992",
+      "_id": "req_5eg1951259",
       "_type": "request",
-      "parentId": "fld_x9jx207992",
+      "parentId": "fld_i43u951259",
       "name": "[POST] /cliente",
       "method": "POST",
       "url": "http://localhost:3000/cliente",
@@ -344,9 +317,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_2u6j207992",
+      "_id": "req_8rj0951259",
       "_type": "request",
-      "parentId": "fld_x9jx207992",
+      "parentId": "fld_i43u951259",
       "name": "[GET] /cliente",
       "method": "GET",
       "url": "http://localhost:3000/cliente",
@@ -363,9 +336,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_rorz207992",
+      "_id": "req_rado951259",
       "_type": "request",
-      "parentId": "fld_x9jx207992",
+      "parentId": "fld_i43u951259",
       "name": "[GET] /cliente/:id",
       "method": "GET",
       "url": "http://localhost:3000/cliente/:id",
@@ -382,9 +355,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_y43c207992",
+      "_id": "req_4n09951259",
       "_type": "request",
-      "parentId": "fld_x9jx207992",
+      "parentId": "fld_i43u951259",
       "name": "[PATCH] /cliente/:id",
       "method": "PATCH",
       "url": "http://localhost:3000/cliente/:id",
@@ -401,9 +374,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_ta9e207992",
+      "_id": "req_n4n2951259",
       "_type": "request",
-      "parentId": "fld_x9jx207992",
+      "parentId": "fld_i43u951259",
       "name": "[DELETE] /cliente/:id",
       "method": "DELETE",
       "url": "http://localhost:3000/cliente/:id",
@@ -420,18 +393,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "fld_3uld207992",
-      "_type": "request_group",
-      "parentId": "wrk_phcf207992",
-      "name": "Health",
-      "environment": {},
-      "environmentPropertyOrder": null,
-      "metaSortKey": -1
-    },
-    {
-      "_id": "req_iooj207992",
+      "_id": "req_mybt951259",
       "_type": "request",
-      "parentId": "fld_3uld207992",
+      "parentId": "fld_i43u951259",
       "name": "[GET] /health",
       "method": "GET",
       "url": "http://localhost:3000/health",
@@ -448,18 +412,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "fld_digw207992",
-      "_type": "request_group",
-      "parentId": "wrk_phcf207992",
-      "name": "Admin",
-      "environment": {},
-      "environmentPropertyOrder": null,
-      "metaSortKey": -1
-    },
-    {
-      "_id": "req_7s6d207992",
+      "_id": "req_gmry951259",
       "_type": "request",
-      "parentId": "fld_digw207992",
+      "parentId": "fld_i43u951259",
       "name": "[POST] /admin",
       "method": "POST",
       "url": "http://localhost:3000/admin",
@@ -476,9 +431,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_eyam207992",
+      "_id": "req_ofvo951259",
       "_type": "request",
-      "parentId": "fld_digw207992",
+      "parentId": "fld_i43u951259",
       "name": "[GET] /admin",
       "method": "GET",
       "url": "http://localhost:3000/admin",
@@ -495,9 +450,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_sbgr207992",
+      "_id": "req_y9lc951259",
       "_type": "request",
-      "parentId": "fld_digw207992",
+      "parentId": "fld_i43u951259",
       "name": "[GET] /admin/:id",
       "method": "GET",
       "url": "http://localhost:3000/admin/:id",
@@ -514,9 +469,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_fatp207992",
+      "_id": "req_138a951259",
       "_type": "request",
-      "parentId": "fld_digw207992",
+      "parentId": "fld_i43u951259",
       "name": "[PATCH] /admin/:id",
       "method": "PATCH",
       "url": "http://localhost:3000/admin/:id",
@@ -533,9 +488,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_54fb207992",
+      "_id": "req_s7lu951259",
       "_type": "request",
-      "parentId": "fld_digw207992",
+      "parentId": "fld_i43u951259",
       "name": "[DELETE] /admin/:id",
       "method": "DELETE",
       "url": "http://localhost:3000/admin/:id",
@@ -552,18 +507,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "fld_uq2e207992",
-      "_type": "request_group",
-      "parentId": "wrk_phcf207992",
-      "name": "Paypal",
-      "environment": {},
-      "environmentPropertyOrder": null,
-      "metaSortKey": -1
-    },
-    {
-      "_id": "req_5p3d207992",
+      "_id": "req_doiu951259",
       "_type": "request",
-      "parentId": "fld_uq2e207992",
+      "parentId": "fld_i43u951259",
       "name": "[POST] /paypal/payment",
       "method": "POST",
       "url": "http://localhost:3000/paypal/payment",
@@ -580,18 +526,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "fld_5suy207992",
-      "_type": "request_group",
-      "parentId": "wrk_phcf207992",
-      "name": "Payment",
-      "environment": {},
-      "environmentPropertyOrder": null,
-      "metaSortKey": -1
-    },
-    {
-      "_id": "req_ps5z207992",
+      "_id": "req_znv6951259",
       "_type": "request",
-      "parentId": "fld_5suy207992",
+      "parentId": "fld_i43u951259",
       "name": "[POST] /payment/stripe/create-subscribe",
       "method": "POST",
       "url": "http://localhost:3000/payment/stripe/create-subscribe",
@@ -608,9 +545,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_iv2f207992",
+      "_id": "req_utvt951259",
       "_type": "request",
-      "parentId": "fld_5suy207992",
+      "parentId": "fld_i43u951259",
       "name": "[POST] /payment/stripe/create-customer",
       "method": "POST",
       "url": "http://localhost:3000/payment/stripe/create-customer",
@@ -627,9 +564,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_nmak207992",
+      "_id": "req_39hs951259",
       "_type": "request",
-      "parentId": "fld_5suy207992",
+      "parentId": "fld_i43u951259",
       "name": "[GET] /payment/stripe/list-products",
       "method": "GET",
       "url": "http://localhost:3000/payment/stripe/list-products",
@@ -646,9 +583,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_2xce207992",
+      "_id": "req_x3aw951259",
       "_type": "request",
-      "parentId": "fld_5suy207992",
+      "parentId": "fld_i43u951259",
       "name": "[POST] /payment/stripe/portal-session",
       "method": "POST",
       "url": "http://localhost:3000/payment/stripe/portal-session",
@@ -665,9 +602,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_lkqh207992",
+      "_id": "req_nrr0951259",
       "_type": "request",
-      "parentId": "fld_5suy207992",
+      "parentId": "fld_i43u951259",
       "name": "[POST] /payment/stripe/edit-subscription",
       "method": "POST",
       "url": "http://localhost:3000/payment/stripe/edit-subscription",
@@ -684,9 +621,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_4mzt207992",
+      "_id": "req_53vh951259",
       "_type": "request",
-      "parentId": "fld_5suy207992",
+      "parentId": "fld_i43u951259",
       "name": "[DELETE] /payment/stripe/cancel-subscription",
       "method": "DELETE",
       "url": "http://localhost:3000/payment/stripe/cancel-subscription",
@@ -703,9 +640,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_kbpe207992",
+      "_id": "req_cqyz951259",
       "_type": "request",
-      "parentId": "fld_5suy207992",
+      "parentId": "fld_i43u951259",
       "name": "[GET] /payment/stripe/list-subscriptions",
       "method": "GET",
       "url": "http://localhost:3000/payment/stripe/list-subscriptions",
@@ -722,9 +659,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_1rnc207992",
+      "_id": "req_pzlu951259",
       "_type": "request",
-      "parentId": "fld_5suy207992",
+      "parentId": "fld_i43u951259",
       "name": "[GET] /payment/stripe/success",
       "method": "GET",
       "url": "http://localhost:3000/payment/stripe/success",
@@ -741,9 +678,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_88tm207992",
+      "_id": "req_17we951259",
       "_type": "request",
-      "parentId": "fld_5suy207992",
+      "parentId": "fld_i43u951259",
       "name": "[PUT] /payment/stripe/customer",
       "method": "PUT",
       "url": "http://localhost:3000/payment/stripe/customer",
@@ -760,9 +697,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_9989207992",
+      "_id": "req_3004951259",
       "_type": "request",
-      "parentId": "fld_5suy207992",
+      "parentId": "fld_i43u951259",
       "name": "[GET] /payment/stripe/customer",
       "method": "GET",
       "url": "http://localhost:3000/payment/stripe/customer",
@@ -779,9 +716,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_1dkz207992",
+      "_id": "req_mtp6951259",
       "_type": "request",
-      "parentId": "fld_5suy207992",
+      "parentId": "fld_i43u951259",
       "name": "[DELETE] /payment/stripe/customer",
       "method": "DELETE",
       "url": "http://localhost:3000/payment/stripe/customer",
@@ -798,9 +735,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_xt64207992",
+      "_id": "req_jyhg951259",
       "_type": "request",
-      "parentId": "fld_5suy207992",
+      "parentId": "fld_i43u951259",
       "name": "[GET] /payment/stripe/mass-customers",
       "method": "GET",
       "url": "http://localhost:3000/payment/stripe/mass-customers",
@@ -817,18 +754,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "fld_r8as207992",
-      "_type": "request_group",
-      "parentId": "wrk_phcf207992",
-      "name": "Webhook",
-      "environment": {},
-      "environmentPropertyOrder": null,
-      "metaSortKey": -1
-    },
-    {
-      "_id": "req_32or207992",
+      "_id": "req_jckc951259",
       "_type": "request",
-      "parentId": "fld_r8as207992",
+      "parentId": "fld_i43u951259",
       "name": "[POST] /webhook",
       "method": "POST",
       "url": "http://localhost:3000/webhook",
@@ -845,18 +773,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "fld_8s3n207992",
-      "_type": "request_group",
-      "parentId": "wrk_phcf207992",
-      "name": "Legal-assistant",
-      "environment": {},
-      "environmentPropertyOrder": null,
-      "metaSortKey": -1
-    },
-    {
-      "_id": "req_qz1d207992",
+      "_id": "req_sztp951259",
       "_type": "request",
-      "parentId": "fld_8s3n207992",
+      "parentId": "fld_i43u951259",
       "name": "[POST] /legal-assistant",
       "method": "POST",
       "url": "http://localhost:3000/legal-assistant",
@@ -873,9 +792,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_yi6o207992",
+      "_id": "req_xu1m951259",
       "_type": "request",
-      "parentId": "fld_8s3n207992",
+      "parentId": "fld_i43u951259",
       "name": "[GET] /legal-assistant",
       "method": "GET",
       "url": "http://localhost:3000/legal-assistant",
@@ -892,9 +811,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_1sdx207992",
+      "_id": "req_2umk951259",
       "_type": "request",
-      "parentId": "fld_8s3n207992",
+      "parentId": "fld_i43u951259",
       "name": "[GET] /legal-assistant/:id",
       "method": "GET",
       "url": "http://localhost:3000/legal-assistant/:id",
@@ -911,9 +830,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_fv3h207992",
+      "_id": "req_tzy0951259",
       "_type": "request",
-      "parentId": "fld_8s3n207992",
+      "parentId": "fld_i43u951259",
       "name": "[PATCH] /legal-assistant/:id",
       "method": "PATCH",
       "url": "http://localhost:3000/legal-assistant/:id",
@@ -930,9 +849,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_s0ev207992",
+      "_id": "req_hzro951259",
       "_type": "request",
-      "parentId": "fld_8s3n207992",
+      "parentId": "fld_i43u951259",
       "name": "[DELETE] /legal-assistant/:id",
       "method": "DELETE",
       "url": "http://localhost:3000/legal-assistant/:id",
@@ -949,18 +868,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "fld_2j46207992",
-      "_type": "request_group",
-      "parentId": "wrk_phcf207992",
-      "name": "Whatsapp",
-      "environment": {},
-      "environmentPropertyOrder": null,
-      "metaSortKey": -1
-    },
-    {
-      "_id": "req_xq3c207992",
+      "_id": "req_qcol951259",
       "_type": "request",
-      "parentId": "fld_2j46207992",
+      "parentId": "fld_i43u951259",
       "name": "[POST] /whatsapp",
       "method": "POST",
       "url": "http://localhost:3000/whatsapp",
@@ -977,9 +887,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_kes5207992",
+      "_id": "req_9w19951259",
       "_type": "request",
-      "parentId": "fld_2j46207992",
+      "parentId": "fld_i43u951259",
       "name": "[GET] /whatsapp",
       "method": "GET",
       "url": "http://localhost:3000/whatsapp",
@@ -996,9 +906,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_bi6r207992",
+      "_id": "req_lmdz951259",
       "_type": "request",
-      "parentId": "fld_2j46207992",
+      "parentId": "fld_i43u951259",
       "name": "[GET] /whatsapp/:id",
       "method": "GET",
       "url": "http://localhost:3000/whatsapp/:id",
@@ -1015,9 +925,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_23le207992",
+      "_id": "req_ij04951259",
       "_type": "request",
-      "parentId": "fld_2j46207992",
+      "parentId": "fld_i43u951259",
       "name": "[PATCH] /whatsapp/:id",
       "method": "PATCH",
       "url": "http://localhost:3000/whatsapp/:id",
@@ -1034,9 +944,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_qw6x207992",
+      "_id": "req_5s9v951259",
       "_type": "request",
-      "parentId": "fld_2j46207992",
+      "parentId": "fld_i43u951259",
       "name": "[DELETE] /whatsapp/:id",
       "method": "DELETE",
       "url": "http://localhost:3000/whatsapp/:id",
@@ -1053,18 +963,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "fld_xzza207992",
-      "_type": "request_group",
-      "parentId": "wrk_phcf207992",
-      "name": "Kago",
-      "environment": {},
-      "environmentPropertyOrder": null,
-      "metaSortKey": -1
-    },
-    {
-      "_id": "req_cu40207992",
+      "_id": "req_cav1951259",
       "_type": "request",
-      "parentId": "fld_xzza207992",
+      "parentId": "fld_i43u951259",
       "name": "[GET] /kago",
       "method": "GET",
       "url": "http://localhost:3000/kago",
@@ -1081,9 +982,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_8b6t207992",
+      "_id": "req_uep0951259",
       "_type": "request",
-      "parentId": "fld_xzza207992",
+      "parentId": "fld_i43u951259",
       "name": "[POST] /kago/push-notification",
       "method": "POST",
       "url": "http://localhost:3000/kago/push-notification",
@@ -1100,9 +1001,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_5cc3207992",
+      "_id": "req_w690951259",
       "_type": "request",
-      "parentId": "fld_xzza207992",
+      "parentId": "fld_i43u951259",
       "name": "[GET] /kago/delete-all-news",
       "method": "GET",
       "url": "http://localhost:3000/kago/delete-all-news",
@@ -1119,18 +1020,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "fld_6mag207992",
-      "_type": "request_group",
-      "parentId": "wrk_phcf207992",
-      "name": "Address",
-      "environment": {},
-      "environmentPropertyOrder": null,
-      "metaSortKey": -1
-    },
-    {
-      "_id": "req_qzl8207992",
+      "_id": "req_jp95951259",
       "_type": "request",
-      "parentId": "fld_6mag207992",
+      "parentId": "fld_i43u951259",
       "name": "[POST] /address",
       "method": "POST",
       "url": "http://localhost:3000/address",
@@ -1147,9 +1039,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_uouo207992",
+      "_id": "req_flso951259",
       "_type": "request",
-      "parentId": "fld_6mag207992",
+      "parentId": "fld_i43u951259",
       "name": "[GET] /address",
       "method": "GET",
       "url": "http://localhost:3000/address",
@@ -1166,9 +1058,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_yl2o207992",
+      "_id": "req_m568951259",
       "_type": "request",
-      "parentId": "fld_6mag207992",
+      "parentId": "fld_i43u951259",
       "name": "[GET] /address/:id",
       "method": "GET",
       "url": "http://localhost:3000/address/:id",
@@ -1185,9 +1077,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_ymil207992",
+      "_id": "req_adxw951259",
       "_type": "request",
-      "parentId": "fld_6mag207992",
+      "parentId": "fld_i43u951259",
       "name": "[PATCH] /address/:id",
       "method": "PATCH",
       "url": "http://localhost:3000/address/:id",
@@ -1204,9 +1096,9 @@
       "settingFollowRedirects": "global"
     },
     {
-      "_id": "req_r0cf207992",
+      "_id": "req_ownv951259",
       "_type": "request",
-      "parentId": "fld_6mag207992",
+      "parentId": "fld_i43u951259",
       "name": "[DELETE] /address/:id",
       "method": "DELETE",
       "url": "http://localhost:3000/address/:id",
