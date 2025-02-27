@@ -3,3 +3,6 @@
 */package-lock.json
 
 .DS_Store
+
+*/python_scripts/*.csv
+*/python_scripts/dist/*.json
